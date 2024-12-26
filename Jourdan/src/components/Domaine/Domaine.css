@@ -1,0 +1,407 @@
+.Domaine-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.UN-DOMAINE{
+    width: fit-content;
+    height: fit-content;
+    margin: 20px 0 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.un-domaine-text{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.un-domaine-text-p1{
+    font-size: 23px;
+    font-weight: lighter;
+}
+.un-domaine-text-p2{
+    font-size: 25px;
+    font-weight: lighter;
+    color: #c0b384;
+}
+.UN-DOMAINE img{
+    width: 200px;
+    height: 80px;
+}
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.paragraph1{
+    width: 850px;
+    height: fit-content;
+    color: #666b6b;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+.paragraph2{
+    width: 950px;
+    height: 50px;
+    color: #666b6b;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+.reserver-btn-text{
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.reserver-btn-3{
+    width: 150px;
+    height: 50px;
+    background-color: #c0b384;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    justify-content:center;
+}
+.reserver-btn-3 button{
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: #FFF;
+    cursor: pointer;
+}
+.EN-SAVIOR{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.EN-SAVIOR-text{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #666b6b;
+}
+
+.UN-SEJOUR{
+    width: fit-content;
+    height: 80vh;
+    margin: 20px 0 0 0px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+    display: none;
+}
+.UN-SEJOUR-left{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.un-unique{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.un-unique-text{
+    display: flex;
+    gap: 5px;
+    font-size: 23px;
+
+}
+.un-unique-text-p1{
+    color: #666b6b;
+}
+.un-unique-text-p2{
+    color: #c0b384;
+}
+.un-unique img{
+    width: 200px;
+    height: 50px;
+}
+.UN-SEJOUR-left-text{
+    color: #5D6169;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.reserver-btn-text1{
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.reserver-btn-4{
+    width: 150px;
+    height: 50px;
+    background-color: #c0b384;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    justify-content:center;
+}
+.reserver-btn-4 button{
+    background: none;
+    border: none;
+    font-size: 17px;
+    color: #FFF;
+    cursor: pointer;
+}
+.UN-SEJOUR-right img{
+    width: 500px;
+    height: 400px;
+}
+@media screen and (max-width:1200px) {
+    .UN-DOMAINE{
+        width: fit-content;
+        height: fit-content;
+        margin: 20px 0 0 100px;
+        gap: 20px;
+    }
+    .UN-SEJOUR{
+        width: 1100px;
+        height: 80vh;
+        margin: 20px 0 0 20px;
+        gap: 40px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .UN-DOMAINE{
+        width: fit-content;
+        height: fit-content;
+        margin: 20px 0 0 50px;
+        gap: 20px;
+    }
+    .UN-SEJOUR{
+        width: fit-content;
+        height: fit-content;
+        margin: 20px 0 0 0px;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:930px) {
+    .UN-DOMAINE{
+        margin: 20px 0 0 50px;
+        gap: 20px;
+    }
+    .paragraph1{
+        width: 750px;
+        height: fit-content;
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .paragraph2{
+        width: 750px;
+        height: fit-content;
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width:805px) {
+    .UN-DOMAINE{
+        margin: 20px 0 0 70px;
+        gap: 10px;
+    }
+    .paragraph1{
+        width: 650px;
+        height: fit-content;
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .paragraph2{
+        width: 650px;
+        height: fit-content;
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .UN-SEJOUR-left{
+        width: 400px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .un-unique{
+        width: fit-content;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 768px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 110px;
+        gap: 10px;
+        padding: 0;
+    }
+    .paragraph1{
+        width: 550px;
+        height: fit-content;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .paragraph2{
+        width: 550px;
+        height: fit-content;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .UN-SEJOUR{
+        margin-bottom: 50px;
+        height: fit-content;
+        gap: 100px;
+    }
+    
+}
+@media screen and (max-width: 700px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 70px;
+        gap: 10px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 620px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 30px;
+        gap: 10px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 550px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 50px;
+        gap: 10px;
+    }
+    .paragraph1{
+        width: 450px;
+        height: fit-content;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .paragraph2{
+        width: 450px;
+        height: fit-content;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .UN-SEJOUR-right img{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 500px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 30px;
+        gap: 10px;
+    }
+    .UN-SEJOUR-left{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 470px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 30px;
+        gap: 10px;
+    }
+    .paragraph1{
+        width: 350px;
+        height: fit-content;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .paragraph2{
+        width: 350px;
+        height: fit-content;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .UN-SEJOUR-right img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 450px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 10px;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 400px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 0px;
+        gap: 10px;
+    }
+    .UN-SEJOUR-left{
+        width: 300px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 375px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 -40px;
+        gap: 10px;
+    }
+    .reserver-btn-text{
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 350px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 -10px;
+        gap: 10px;
+    }
+    .reserver-btn-text{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width: 320px)  {
+    .UN-DOMAINE{
+        margin: 20px 0 0 5px;
+        gap: 10px;
+    }
+    .reserver-btn-text{
+        margin-left: 30px;
+        width: fit-content;
+    }
+}

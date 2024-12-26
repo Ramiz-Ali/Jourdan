@@ -1,0 +1,122 @@
+.sidebarmain {
+  width: 400px;
+  height: 100vh;
+  background-color: #1F2937;
+  position: fixed;
+  top: 0;
+  left: -400px;
+  transition: left 0.3s ease; 
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebarmain.show {
+  left: 0; 
+}
+
+.cross-icon-sidebar {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+}
+.sidebar-top{
+  width: 400px;
+  height: 70px;
+  background-color: #575757;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar-top-img{
+  width: 90px;
+  height: auto;
+}
+.sidebar-center{
+  width: 200px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 0 10px;
+  gap: 5px;
+}
+.sidebar-center-text1{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.sidebar-center-text1 div{
+  font-size: 15px;
+  color: #fff;
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+.sidebar-center-text1 div:hover{
+  background-color: #575757;
+  border-radius: 5px;
+}
+.reserver-btn-sidebar{
+  width: 150px;
+  height: 55px;
+  background-color: #c0b384;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+.reserver-btn-sidebar-p1{
+  font-size: 15px;
+  cursor: pointer;
+}
+.reserver-btn-sidebar-p2{
+  font-size: 12px;
+  cursor: pointer;
+}
+.sidebar-line{
+  width: 400px;
+  height: 3px;
+  color: #fff;
+  background-color: #fff;
+}
+.sidebar-text-bottom1{
+  color: #94A3B8;
+  font-size: 16px;
+  width: 200px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+.sidebar-text-bottom2{
+  color: #94A3B8;
+  font-size: 16px;
+}
+.sidebar-text-bottom3{
+  color: #94A3B8;
+  font-size: 16px;
+}
+@media screen and (max-width:375px) {
+   .sidebarmain{
+  width: 333px;
+  position: fixed;
+   }
+   .sidebar-top{
+    width: 333px;
+  }
+  .cross-icon-sidebar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

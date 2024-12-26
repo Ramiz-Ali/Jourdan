@@ -1,0 +1,146 @@
+
+.les-chambers-main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
+   
+}
+.les-chambers{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.les-chambers-text{
+    display: flex;
+    gap: 5px;
+    font-size: 25px;
+
+}
+.les-chambers-text-p1{
+    color: #666b6b;
+}
+.les-chambers-text-p2{
+    color: #c0b384;
+}
+.les-chambers img{
+    width: 200px;
+    height: 50px;
+}
+.chambers-items{
+    width: 1300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.chamber-item1{
+    width: 420px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.chamber-item1 img{
+    width: 420px;
+    height: 280px;
+}
+.chamber-contants{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chamber-contants-p1{
+    font-size: 23px;
+    font-weight: lighter;
+}
+.en-saviour-icon{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.en-saviour-icon div{
+    color: #867d5c;
+    font-size: 15px;
+}
+@media screen and (max-width:1300px) {
+    .chamber-item1{
+        width: 350px;
+        height: 350px;
+    }
+    .chamber-item1 img{
+        width: 350px;
+        height: 220px;
+    }
+}
+@media screen and (max-width:1060px) {
+    .chamber-item1{
+        width: 300px;
+        height: 300px;
+    }
+    .chamber-item1 img{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:950px) {
+    .chamber-item1{
+        width: 250px;
+        height: 250px;
+    }
+    .chamber-item1 img{
+        width: 250px;
+        height: 190px;
+    }
+}
+@media screen and (max-width:800px) {
+    .chamber-item1{
+        width: 200px;
+        height: 200px;
+    }
+    .chamber-item1 img{
+        width: 200px;
+        height: 160px;
+    }
+    .chamber-contants{
+        gap: 10px;
+    }
+    .chamber-contants-p1{
+        font-size: 15px;
+        
+    }
+    .en-saviour-icon{
+        gap:2px;
+    }
+    .en-saviour-icon div{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:630px) {
+    .chambers-items{
+        width: fit-content;
+        height: fit-content;
+        gap: 40px;
+        flex-wrap: wrap;
+        
+    }
+    .les-chambers-main{
+        gap: 50px;
+        height: fit-content;
+    }
+    .chamber-item1{
+        width: 200px;
+        height: 200px;
+    }
+}

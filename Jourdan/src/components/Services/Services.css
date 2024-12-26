@@ -1,0 +1,148 @@
+.services-main{
+    width: 98.7vw;
+    height: fit-content;
+    background-color: #867D5C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 80px;
+    padding-bottom: 30px;
+}
+.service-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+.service-text-main{
+    display: flex;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.service-p1{
+    color: black;
+}
+.service-p2{
+    color: #fff;
+}
+.service-text img{
+    width: 120px;
+    height: 40px;
+}
+.first-services{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 240px;
+    margin-left: 100px;
+}
+.transfert{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+.transfert img{
+    width: 40px;
+    height: 40px;
+}
+.transfert p{
+    font-weight: bold;
+}
+.transfert div{
+    color: #343B45;
+}
+.second-services{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 240px;
+    margin-left: 110px;
+    justify-content: center;
+}
+.clock-div{
+    width: 300px;
+    height: fit-content;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.ckeck-text{
+    display: flex;
+    gap: 3px;
+    font-size: 17px;
+
+}
+.check-div2{
+    color: #fff;
+}
+.voir-tous{
+    display: flex;
+    gap: 5px;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-width:1142px) {
+    .first-services{
+        gap: 140px;
+        margin-left: 100px;
+    }
+    .second-services{
+        gap: 140px;
+        margin-left: 110px;
+    }
+}
+@media screen and (max-width:970px) {
+    .first-services{
+        gap: 80px;
+        margin-left: 50px;
+    }
+    .second-services{
+        gap: 80px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:790px) {
+    .first-services{
+        gap: 50px;
+        margin-left: 30px;
+    }
+    .second-services{
+        gap: 50px;
+        margin-left: 30px;
+    }
+    .transfert img{
+        width: 40px;
+        height: 40px;
+    }
+    .transfert div{
+        color: #343B45;
+        text-align: center;
+        width: 150px;
+    }
+}
+@media screen and (max-width:425px) {
+    .service-text-main{
+        display: flex;
+        font-size: 25px;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .first-services{
+        gap: 50px;
+        margin-left: 0px;
+    }
+    .second-services{
+        gap: 50px;
+        margin-left: 0px;
+    }
+}

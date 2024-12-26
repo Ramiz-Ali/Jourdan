@@ -1,0 +1,114 @@
+.homepage-navbar2{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgb(161, 156, 156);
+    border-bottom: 1px solid rgb(161, 156, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    
+}
+.RESERVERENLIGNE{
+    color: #101111;
+    cursor: pointer;
+    font-size: 16px;
+}
+.RESERVERENLIGNE:hover{
+    color: blue;
+}
+.DATEARRIVE{
+    color: #666b6b;
+    cursor: pointer;
+    font-size: 16px;
+}
+.DATEARRIVE:hover{
+    color: blue;
+}
+.adulte{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.box0{
+    width: 37px;
+    height: 37px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+.reserver-btn-2{
+    width: 130px;
+    height: 45px;
+    background-color: #c0b384;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    justify-content:center;
+}
+.reserver-btn-2 button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #FFF;
+    cursor: pointer;
+}
+.malleur{
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+@media screen and (max-width:1024px) {
+    .homepage-navbar2{
+        gap: 10px;
+        
+    }
+    .RESERVERENLIGNE{
+        font-size: 16px;
+        text-align: center;
+    }
+    .DATEARRIVE{
+        font-size: 16px;
+        text-align: center;
+    }
+    .box0{
+        width: 37px;
+        height: 37px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .reserver-btn-2{
+        width: 130px;
+        height: 45px;
+        text-align: center;
+    }
+    .reserver-btn-2 button{
+        font-size: 15px;
+        text-align: center;
+    }
+    .malleur{
+        width: 250px;
+        height: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .homepage-navbar2{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        gap: 40px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}

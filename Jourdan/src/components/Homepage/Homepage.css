@@ -1,0 +1,315 @@
+.homepage-main{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+video{
+    width: 1350px;
+    max-width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .3);
+}
+.nav1{
+    width: 1240px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0 50px;
+
+}
+.menu-text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    gap: 3px;
+}
+.menu-text-text{
+    font-size: 18px;
+    font-weight: 100;
+}
+.reserver-btn{
+    width: 150px;
+    height: 55px;
+    background-color: #c0b384;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.reserver-btn-p1{
+    font-size: 15px;
+    cursor: pointer;
+}
+.reserver-btn-p2{
+    font-size: 12px;
+    cursor: pointer;
+}
+.home-icons{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.loc-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #c0b384;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.img-dj{
+    position: absolute;
+    left: 40%;
+    top: 7%; 
+}
+.image-text{
+    width: fit-content;
+    height: 70px;
+    position: absolute;
+    left: 23%;
+    top: 45%;
+    display:flex ;
+    align-items: center;
+    gap: 30px;
+}
+.BIENVENUE-text{
+    display: flex;
+    gap: 5px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.BIENVENUE-p1{
+    font-size: 30px;
+}
+.BIENVENUE-p2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.voir-btn{
+    width: 140px;
+    height: 55px;
+    background-color: #c0b384;
+    position: absolute;
+    left: 45%;
+    top: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.voir-btn button{
+    border: none;
+    background: none;
+    color: #FFF;
+    cursor: pointer;
+}
+.arrow-circle{
+    position: absolute;
+    bottom: 5%;
+    left: 48.5%;
+    cursor: pointer;
+}
+
+
+
+.background-image {
+    width: 100%;
+    height: 100vh;
+  }
+  
+@media screen and (max-width:1024px) {
+    video{
+        width: 100vw;
+        height: 100vh;
+    }
+    .overlay{
+        width: 100%;
+        height: 100vh;
+    }
+    .nav1{
+        width: 900px;
+    
+    }
+}
+@media screen and (max-width:768px) {
+    video{
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav1{
+        width: 650px;
+        padding: 20px 50px 0 30px;
+    
+    }
+    .arrow-circle{
+        display: none;
+    }
+    .voir-btn{
+        left: 44%;
+        top: 75%;
+    }
+    .home-icons{
+        top: 20%;
+        left: 5%;
+    }
+    .img-dj{
+        left: 35%;
+        top: 7%; 
+    }
+    .image-text{
+        width: fit-content;
+        height: 70px;
+        left: 15%;
+        top: 55%;
+        gap: 20px;
+    }
+    .BIENVENUE-p1{
+        font-size: 20px;
+    }
+    .BIENVENUE-p2{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:709px) {
+    video{
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav1{
+        width: 600px;
+        padding: 20px 50px 0 30px;
+    
+    }
+    .voir-btn{
+        left: 34%;
+        top: 85%;
+    }
+    .home-icons{
+        top: 20%;
+        left: 5%;
+    }
+    .img-dj{
+        left: 25%;
+        top: 7%;
+    }
+    .image-text{
+        width: fit-content;
+        height: fit-content;
+        left: 17%;
+        top: 50%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .BIENVENUE-p1{
+        font-size: 20px;
+    }
+    .BIENVENUE-p2{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:640px) {
+    .nav1{
+        width: 500px;
+        padding: 20px 50px 0 30px;
+    
+    }
+}
+@media screen and (max-width:540px) {
+    .nav1{
+        width: 400px;
+        padding: 20px 50px 0 30px;
+    }
+    .home-icons{
+        top: 20%;
+        left: 6.5%;
+    }
+    .img-dj{
+        left: 25%;
+        top: 15%;
+        width: 200px;
+        height: 180px;
+    }
+    .BIENVENUE-text{
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .image-text{
+        left: 24%;
+        top: 45%;
+        gap: 15px;
+    }
+    .voir-btn{
+        left: 32%;
+        top: 85%;
+    }
+}
+@media screen and (max-width:440px) {
+    .nav1{
+        width: 340px;
+        padding: 20px 10px 0 30px;
+    }
+    .reserver-btn{
+        width: 120px;
+        height: 45px;
+    }
+    .reserver-btn-p1{
+        font-size: 12px;
+    }
+    .reserver-btn-p2{
+        font-size: 10px;
+    }
+    .home-icons{
+        top: 20%;
+        left: 8%;
+    }
+}
+@media screen and (max-width:375px) {
+    .nav1{
+        width: 300px;
+        padding: 20px 10px 0 30px;
+    }
+    .home-icons{
+        top: 20%;
+        left: 9%;
+    }
+}
+@media screen and (max-width:340px) {
+    .nav1{
+        width: 260px;
+        padding: 20px 10px 0 30px;
+    }
+    .home-icons{
+        top: 15%;
+        left: 11.5%;
+    }
+}
